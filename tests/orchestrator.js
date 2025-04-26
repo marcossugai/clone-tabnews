@@ -1,5 +1,4 @@
 import retry from "async-retry";
-import { LogError } from "concurrently";
 
 async function waitForAllServices() {
   await waitForWebServer();
@@ -20,6 +19,8 @@ async function waitForAllServices() {
   }
 }
 
-export default {
+const orchestrator = {
   waitForAllServices,
 };
+
+export default orchestrator;
