@@ -7,7 +7,7 @@ async function fetchAPI(key) {
 }
 
 export default function StatusPage() {
-  const response = useSWR("/api/v1/status", fetchAPI, {
+  useSWR("/api/v1/status", fetchAPI, {
     refreshInterval: 5000,
   });
 
