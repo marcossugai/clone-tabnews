@@ -4,6 +4,7 @@
     "commitlint",
     "curso",
     "datname",
+    "emailduplicado",
     "github",
     "isready",
     "pgmigrations",
@@ -11,6 +12,9 @@
     "programação",
     "projeto",
     "tabnews",
+    "timestamptz",
+    "usernameduplicado",
     "Usuario"
-  ]
+  ],
+  "cSpell.ignoreWords": ["marcossugai"]
 }
